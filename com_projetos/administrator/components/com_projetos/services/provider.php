@@ -26,7 +26,7 @@ return new class implements ServiceProviderInterface
 
         $container->set(
             ComponentInterface::class,
-            static function (Container $container) {
+            function (Container $container) {
                 return new Component(
                     $container->get(ComponentDispatcherFactoryInterface::class)
                 );
