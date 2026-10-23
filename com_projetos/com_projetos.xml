@@ -4,7 +4,7 @@
     <creationDate>October 2026</creationDate>
     <author>Gabriel Soares</author>
     <license>GPL-2.0-or-later</license>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <description>COM_PROJETOS_XML_DESCRIPTION</description>
     <element>com_projetos</element>
     <namespace path="src">Gabriel\Component\Projetos</namespace>
@@ -15,8 +15,11 @@
     </files>
 
     <administration>
+        <menu>COM_PROJETOS</menu>
+
         <files folder="administrator/components/com_projetos">
             <folder>services</folder>
+            <folder>sql</folder>
         </files>
 
         <languages folder="administrator/components/com_projetos/language">
@@ -24,4 +27,10 @@
             <language tag="pt-BR">pt-BR/com_projetos.sys.ini</language>
         </languages>
     </administration>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
 </extension>
