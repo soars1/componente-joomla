@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="component" method="upgrade">
-    <name>COM_PROJETOS</name>
-    <author>Gabriel Soares</author>
+    <name>COM_PROJETOS_TITLE</name>
     <creationDate>October 2026</creationDate>
-    <license>GNU General Public License version 2 or later</license>
-    <version>0.1.0</version>
+    <author>Gabriel Soares</author>
+    <license>GPL-2.0-or-later</license>
+    <version>0.1.1</version>
     <description>COM_PROJETOS_XML_DESCRIPTION</description>
     <element>com_projetos</element>
     <namespace path="src">Gabriel\Component\Projetos</namespace>
@@ -16,13 +16,21 @@
 
     <administration>
         <menu>COM_PROJETOS</menu>
+
         <files folder="administrator/components/com_projetos">
             <folder>services</folder>
-            <folder>src</folder>
+            <folder>sql</folder>
         </files>
+
         <languages folder="administrator/components/com_projetos/language">
             <language tag="pt-BR">pt-BR/com_projetos.ini</language>
             <language tag="pt-BR">pt-BR/com_projetos.sys.ini</language>
         </languages>
     </administration>
+
+    <install>
+        <sql>
+            <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+        </sql>
+    </install>
 </extension>
