@@ -18,3 +18,14 @@ O componente `com_projetos` tem como objetivo cadastrar projetos no administrado
 - Página pública provisória.
 
 Ainda faltam modelos, formulários, controladores de cadastro e consulta ao banco.
+
+## Dados de um projeto
+
+| Campo | Tipo | Finalidade |
+| --- | --- | --- |
+| `id` | Inteiro | Identificador único |
+| `title` | Texto até 150 caracteres | Nome do projeto |
+| `category` | Texto até 100 caracteres | Categoria |
+| `description` | Texto | Descrição |
+| `github_url` | Texto até 2048 caracteres | Endereço do repositório |
+| `state` | Inteiro | Estado de publicação |
