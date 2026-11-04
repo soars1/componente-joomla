@@ -5,3 +5,7 @@ Estou montando um componente para cadastrar projetos no painel do Joomla e depoi
 A ideia é salvar título, categoria, descrição e link do GitHub. O projeto ainda está em desenvolvimento, então não tem pacote instalável pronto.
 
 Estou seguindo a [documentação de componentes do Joomla 5.4](https://manual.joomla.org/docs/5.4/building-extensions/components/component-development-tutorial/).
+
+## Escopo
+
+O componente `com_projetos` tem como objetivo cadastrar projetos no administrador do Joomla e exibir uma listagem pública no site. A implementação atual é inicial e ainda não oferece cadastro funcional.
