@@ -111,3 +111,7 @@ O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensage
 - Exclusão com confirmação e permissão adequada.
 - Exibição de projetos publicados e ocultação dos não publicados.
 - Listagem vazia e URL de GitHub inválida.
+
+## Fluxo de contribuição
+
+Faça alterações pequenas e focadas, confira o diff antes de enviar e registre em cada commit o motivo da mudança. Para alterações em PHP, valide a sintaxe; para o manifesto, valide o XML. Testes em uma instalação Joomla devem ser feitos antes de considerar uma funcionalidade concluída.
