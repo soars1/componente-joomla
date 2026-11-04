@@ -115,3 +115,11 @@ O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensage
 ## Fluxo de contribuição
 
 Faça alterações pequenas e focadas, confira o diff antes de enviar e registre em cada commit o motivo da mudança. Para alterações em PHP, valide a sintaxe; para o manifesto, valide o XML. Testes em uma instalação Joomla devem ser feitos antes de considerar uma funcionalidade concluída.
+
+## Convenções do projeto
+
+- Manter nomes de classes e caminhos alinhados ao padrão do Joomla.
+- Utilizar as APIs do Joomla para acesso a banco, rotas e autorização.
+- Evitar HTML misturado à lógica de persistência.
+- Centralizar textos de interface em arquivos de idioma.
+- Priorizar mudanças pequenas e revisáveis.
