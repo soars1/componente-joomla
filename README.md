@@ -123,3 +123,7 @@ Faça alterações pequenas e focadas, confira o diff antes de enviar e registre
 - Evitar HTML misturado à lógica de persistência.
 - Centralizar textos de interface em arquivos de idioma.
 - Priorizar mudanças pequenas e revisáveis.
+
+## Empacotamento
+
+O manifesto controla os arquivos incluídos no pacote de instalação. Sempre que novas pastas ou arquivos forem criados, confira se estão contemplados no XML. Não inclua configurações locais, credenciais, caches ou arquivos temporários no ZIP.
