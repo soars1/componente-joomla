@@ -36,3 +36,7 @@ Ainda faltam modelos, formulários, controladores de cadastro e consulta ao banc
 - `com_projetos/administrator/`: arquivos do administrador.
 - `com_projetos/components/`: arquivos da área pública.
 - `README.md`: documentação do desenvolvimento.
+
+## Referência de versão
+
+O desenvolvimento usa como referência a documentação do Joomla 5.4. A compatibilidade final com versões específicas do Joomla ainda precisa ser testada.
