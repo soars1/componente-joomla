@@ -93,3 +93,12 @@ O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensage
 - [ ] Escapar títulos, categorias e descrições na saída HTML.
 - [ ] Validar o esquema de URLs externas.
 - [ ] Utilizar consultas parametrizadas na camada de dados.
+
+## Checklist de acessibilidade
+
+- [ ] Usar títulos em ordem hierárquica.
+- [ ] Garantir navegação por teclado.
+- [ ] Manter foco visível nos links e controles.
+- [ ] Associar rótulos aos campos do formulário.
+- [ ] Exibir erros de validação de forma textual.
+- [ ] Verificar contraste e comportamento responsivo.
