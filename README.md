@@ -102,3 +102,12 @@ O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensage
 - [ ] Associar rótulos aos campos do formulário.
 - [ ] Exibir erros de validação de forma textual.
 - [ ] Verificar contraste e comportamento responsivo.
+
+## Cenários de teste planejados
+
+- Instalação e atualização do componente.
+- Cadastro com campos obrigatórios preenchidos e vazios.
+- Edição de um projeto existente.
+- Exclusão com confirmação e permissão adequada.
+- Exibição de projetos publicados e ocultação dos não publicados.
+- Listagem vazia e URL de GitHub inválida.
