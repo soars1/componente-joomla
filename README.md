@@ -76,3 +76,11 @@ O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensage
 3. Implementar listagem e ações de cadastro, edição e exclusão.
 4. Configurar permissões e tokens CSRF nas ações de escrita.
 5. Traduzir os rótulos para português do Brasil.
+
+## Próximos passos no site
+
+1. Consultar projetos publicados no banco.
+2. Ordenar a listagem de forma previsível.
+3. Escapar os dados exibidos no HTML.
+4. Validar links externos antes de renderizá-los.
+5. Criar estados de lista vazia e erro.
