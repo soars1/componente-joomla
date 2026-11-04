@@ -64,3 +64,7 @@ O arquivo `install.mysql.utf8.sql` define a tabela `#__projetos`. O prefixo `#__
 ## Publicação
 
 O campo `state` possui valor padrão `1` na definição SQL. A aplicação ainda precisa implementar a filtragem de projetos publicados e as regras de alteração de estado antes de disponibilizar dados reais no site.
+
+## Página pública
+
+O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensagem provisória. A listagem de projetos, os links e o tratamento de conteúdo ainda serão implementados.
