@@ -136,3 +136,7 @@ O manifesto controla os arquivos incluídos no pacote de instalação. Sempre qu
 - [ ] Listagem pública ligada ao banco.
 - [ ] Traduções carregadas corretamente.
 - [ ] Testes manuais concluídos sem erros críticos.
+
+## Diagnóstico de problemas
+
+Se o componente não instalar, confira primeiro o caminho do manifesto, a estrutura do ZIP e os arquivos declarados no XML. Se uma página não carregar, verifique o namespace, o controlador e os registros de erro do Joomla/PHP. Problemas de banco exigem conferir o prefixo de tabelas e a execução do SQL de instalação.
