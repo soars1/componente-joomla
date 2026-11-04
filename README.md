@@ -60,3 +60,7 @@ O desenvolvimento usa como referência a documentação do Joomla 5.4. A compati
 ## Banco de dados
 
 O arquivo `install.mysql.utf8.sql` define a tabela `#__projetos`. O prefixo `#__` é substituído pelo Joomla durante a instalação. A tabela guarda os dados principais dos projetos, mas ainda não existe interface de gerenciamento pronta.
+
+## Publicação
+
+O campo `state` possui valor padrão `1` na definição SQL. A aplicação ainda precisa implementar a filtragem de projetos publicados e as regras de alteração de estado antes de disponibilizar dados reais no site.
