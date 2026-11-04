@@ -40,3 +40,10 @@ Ainda faltam modelos, formulários, controladores de cadastro e consulta ao banc
 ## Referência de versão
 
 O desenvolvimento usa como referência a documentação do Joomla 5.4. A compatibilidade final com versões específicas do Joomla ainda precisa ser testada.
+
+## Pré-requisitos para desenvolvimento
+
+- Instalação local do Joomla compatível com a versão em estudo.
+- PHP e banco de dados suportados pela instalação do Joomla.
+- Acesso ao painel administrativo.
+- Editor de código e Git.
