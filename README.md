@@ -127,3 +127,12 @@ Faça alterações pequenas e focadas, confira o diff antes de enviar e registre
 ## Empacotamento
 
 O manifesto controla os arquivos incluídos no pacote de instalação. Sempre que novas pastas ou arquivos forem criados, confira se estão contemplados no XML. Não inclua configurações locais, credenciais, caches ou arquivos temporários no ZIP.
+
+## Critérios para uma primeira versão utilizável
+
+- [ ] Instalação e desinstalação testadas.
+- [ ] Cadastro e edição funcionando.
+- [ ] Permissões administrativas verificadas.
+- [ ] Listagem pública ligada ao banco.
+- [ ] Traduções carregadas corretamente.
+- [ ] Testes manuais concluídos sem erros críticos.
