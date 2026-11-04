@@ -84,3 +84,12 @@ O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensage
 3. Escapar os dados exibidos no HTML.
 4. Validar links externos antes de renderizá-los.
 5. Criar estados de lista vazia e erro.
+
+## Checklist de segurança
+
+- [ ] Validar entradas no servidor.
+- [ ] Verificar autorização nas operações administrativas.
+- [ ] Proteger formulários de escrita com token CSRF.
+- [ ] Escapar títulos, categorias e descrições na saída HTML.
+- [ ] Validar o esquema de URLs externas.
+- [ ] Utilizar consultas parametrizadas na camada de dados.
