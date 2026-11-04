@@ -56,3 +56,7 @@ O desenvolvimento usa como referência a documentação do Joomla 5.4. A compati
 4. Verifique mensagens de instalação e registros de erro.
 
 **Atenção:** o pacote ainda não foi validado como instalável; estas etapas são um roteiro de teste, não uma garantia de funcionamento.
+
+## Banco de dados
+
+O arquivo `install.mysql.utf8.sql` define a tabela `#__projetos`. O prefixo `#__` é substituído pelo Joomla durante a instalação. A tabela guarda os dados principais dos projetos, mas ainda não existe interface de gerenciamento pronta.
