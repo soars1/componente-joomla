@@ -47,3 +47,12 @@ O desenvolvimento usa como referência a documentação do Joomla 5.4. A compati
 - PHP e banco de dados suportados pela instalação do Joomla.
 - Acesso ao painel administrativo.
 - Editor de código e Git.
+
+## Instalação durante o desenvolvimento
+
+1. Revise o manifesto `com_projetos.xml` e os caminhos declarados.
+2. Prepare um pacote ZIP com o manifesto na raiz e as pastas esperadas.
+3. Tente instalar pelo gerenciador de extensões do Joomla em ambiente de testes.
+4. Verifique mensagens de instalação e registros de erro.
+
+**Atenção:** o pacote ainda não foi validado como instalável; estas etapas são um roteiro de teste, não uma garantia de funcionamento.
