@@ -9,3 +9,12 @@ Estou seguindo a [documentação de componentes do Joomla 5.4](https://manual.jo
 ## Escopo
 
 O componente `com_projetos` tem como objetivo cadastrar projetos no administrador do Joomla e exibir uma listagem pública no site. A implementação atual é inicial e ainda não oferece cadastro funcional.
+
+## Estado atual
+
+- Manifesto XML do componente.
+- Estrutura inicial de administração e site.
+- Tabela SQL para projetos.
+- Página pública provisória.
+
+Ainda faltam modelos, formulários, controladores de cadastro e consulta ao banco.
