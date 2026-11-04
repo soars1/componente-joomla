@@ -68,3 +68,11 @@ O campo `state` possui valor padrão `1` na definição SQL. A aplicação ainda
 ## Página pública
 
 O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensagem provisória. A listagem de projetos, os links e o tratamento de conteúdo ainda serão implementados.
+
+## Próximos passos no administrador
+
+1. Criar modelo e tabela de edição do projeto.
+2. Adicionar formulário com validação.
+3. Implementar listagem e ações de cadastro, edição e exclusão.
+4. Configurar permissões e tokens CSRF nas ações de escrita.
+5. Traduzir os rótulos para português do Brasil.
