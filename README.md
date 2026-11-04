@@ -29,3 +29,10 @@ Ainda faltam modelos, formulários, controladores de cadastro e consulta ao banc
 | `description` | Texto | Descrição |
 | `github_url` | Texto até 2048 caracteres | Endereço do repositório |
 | `state` | Inteiro | Estado de publicação |
+
+## Estrutura do repositório
+
+- `com_projetos/com_projetos.xml`: manifesto de instalação.
+- `com_projetos/administrator/`: arquivos do administrador.
+- `com_projetos/components/`: arquivos da área pública.
+- `README.md`: documentação do desenvolvimento.
