@@ -2,15 +2,17 @@
 
 \defined('_JEXEC') or die;
 
+use Joomla\CMS\Language\Text;
+
 ?>
 
 <main class="com-projetos" id="projetos">
     <header class="com-projetos__header">
-        <h1>Projetos do portfólio</h1>
-        <p>Conheça os projetos desenvolvidos e acompanhe suas atualizações.</p>
+        <h1><?php echo Text::_('COM_PROJETOS_PAGE_TITLE'); ?></h1>
+        <p><?php echo Text::_('COM_PROJETOS_PAGE_INTRO'); ?></p>
     </header>
     <section class="com-projetos__list" aria-labelledby="projetos-lista-titulo">
-        <h2 id="projetos-lista-titulo">Lista de projetos</h2>
-        <p>Nenhum projeto disponível no momento.</p>
+        <h2 id="projetos-lista-titulo"><?php echo Text::_('COM_PROJETOS_LIST_TITLE'); ?></h2>
+        <p><?php echo Text::_('COM_PROJETOS_EMPTY'); ?></p>
     </section>
 </main>
