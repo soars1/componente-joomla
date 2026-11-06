@@ -5,5 +5,6 @@ CREATE TABLE IF NOT EXISTS `#__projetos` (
     `description` TEXT NOT NULL,
     `github_url` VARCHAR(2048) NOT NULL DEFAULT '',
     `state` TINYINT NOT NULL DEFAULT 1,
-    PRIMARY KEY (`id`)
+    PRIMARY KEY (`id`),
+    INDEX `idx_projetos_state` (`state`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
