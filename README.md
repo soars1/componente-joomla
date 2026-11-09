@@ -8,16 +8,16 @@ Estou seguindo a [documentação de componentes do Joomla 5.4](https://manual.jo
 
 ## Escopo
 
-O componente `com_projetos` tem como objetivo cadastrar projetos no administrador do Joomla e exibir uma listagem pública no site. A implementação atual é inicial e ainda não oferece cadastro funcional.
+O componente `com_projetos` tem como objetivo cadastrar projetos no administrador do Joomla e exibir uma listagem pública no site. A listagem pública já possui modelo de consulta e template dinâmico, mas o cadastro administrativo ainda não foi implementado nem validado no Joomla.
 
 ## Estado atual
 
 - Manifesto XML do componente.
 - Estrutura inicial de administração e site.
 - Tabela SQL para projetos.
-- Página pública provisória.
+- Página pública dinâmica com consulta de projetos publicados, saída HTML escapada e links externos validados.
 
-Ainda faltam modelos, formulários, controladores de cadastro e consulta ao banco.
+Ainda faltam os modelos, formulários e controladores do CRUD administrativo. A integração pública precisa ser testada em uma instalação real do Joomla.
 
 ## Dados de um projeto
 
@@ -67,7 +67,7 @@ O campo `state` possui valor padrão `1` na definição SQL. A aplicação ainda
 
 ## Página pública
 
-O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensagem provisória. A listagem de projetos, os links e o tratamento de conteúdo ainda serão implementados.
+O template `tmpl/projetos/default.php` exibe os projetos publicados e uma mensagem para lista vazia. Textos são escapados e links externos são limitados a HTTPS no domínio github.com. A funcionalidade ainda precisa de testes de integração.
 
 ## Próximos passos no administrador
 
@@ -90,8 +90,8 @@ O template `tmpl/projetos/default.php` apresenta apenas um título e uma mensage
 - [ ] Validar entradas no servidor.
 - [ ] Verificar autorização nas operações administrativas.
 - [ ] Proteger formulários de escrita com token CSRF.
-- [ ] Escapar títulos, categorias e descrições na saída HTML.
-- [ ] Validar o esquema de URLs externas.
+- [x] Escapar títulos, categorias e descrições na saída HTML pública.
+- [x] Validar o esquema de URLs externas na listagem pública.
 - [ ] Utilizar consultas parametrizadas na camada de dados.
 
 ## Checklist de acessibilidade
@@ -140,3 +140,7 @@ O manifesto controla os arquivos incluídos no pacote de instalação. Sempre qu
 ## Diagnóstico de problemas
 
 Se o componente não instalar, confira primeiro o caminho do manifesto, a estrutura do ZIP e os arquivos declarados no XML. Se uma página não carregar, verifique o namespace, o controlador e os registros de erro do Joomla/PHP. Problemas de banco exigem conferir o prefixo de tabelas e a execução do SQL de instalação.
+
+## Documentação complementar
+
+Consulte a pasta `docs/` para arquitetura, instalação local, banco de dados, segurança, acessibilidade, testes manuais e roadmap.
