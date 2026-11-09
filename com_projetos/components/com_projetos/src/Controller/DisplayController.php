@@ -8,9 +8,5 @@ use Joomla\CMS\MVC\Controller\BaseController;
 
 class DisplayController extends BaseController
 {
-    public function display($cachable = false, $urlparams = [])
-    {
-        $view = $this->getView('projetos', 'html');
-        $view->display();
-    }
+    protected $default_view = 'projetos';
 }
