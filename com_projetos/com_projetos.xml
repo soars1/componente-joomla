@@ -10,6 +10,7 @@
     <namespace path="src">Gabriel\Component\Projetos</namespace>
 
     <files folder="components/com_projetos">
+        <folder>services</folder>
         <folder>src</folder>
         <folder>tmpl</folder>
     </files>
